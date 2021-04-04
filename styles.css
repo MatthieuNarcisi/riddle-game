@@ -7,7 +7,7 @@ body {
 }
 
 .main-content {
-  width: 600px;
+  width: 650px;
   margin: 0px auto;
   padding: 20px;
   background: white;
@@ -28,8 +28,16 @@ body {
   padding: 10px;
 }
 
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
 p {
-  font-size: 25px;
+  font-size: 35px;
 }
 
 #next-step {
