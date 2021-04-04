@@ -1,0 +1,45 @@
+body {
+  font-family: "Tangerine", serif;
+  background: #eeeeee;
+  color: #555555;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  width: 600px;
+  margin: 0px auto;
+  padding: 20px;
+  background: white;
+}
+
+.code-input {
+  display: block;
+  font-size: 30px;
+  margin: 15px 0px;
+  width: 100%;
+}
+
+.code-confirm {
+  width: 100%;
+  border: none;
+  font-size: 28px;
+  color: #444444;
+  padding: 10px;
+}
+
+p {
+  font-size: 25px;
+}
+
+#next-step {
+  display: none;
+}
+
+.reveal {
+  display: block !important;
+}
+
+.hide {
+  display: none !important;
+}
