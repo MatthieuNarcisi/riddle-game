@@ -1,7 +1,7 @@
 function confirm() {
   const codeInput = document.getElementById("code");
 
-  if (codeInput.value === "508742") {
+  if (codeInput.value.toLowerCase() === "moines") {
     const nextStep = document.getElementById("next-step");
 
     nextStep.classList.remove("hide");

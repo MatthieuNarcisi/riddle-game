@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine"
+    />
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+  </head>
+
+  <body>
+    <div class="main-content">
+      <h1>Le monolithe</h1>
+      <p>
+        Vous approchez doucement de la fin de votre périple. Il ne reste plus
+        beaucoup de temps avant que vous puissiez être en possession de mes
+        potions.
+      </p>
+
+      <div id="puzzle-form">
+        <p>
+          Cependant, je ne vais pas arrêter ici de vous tester, car seul les
+          plus méritants peuvent bénéficier de mon trésor. Cette pierre à un nom
+          et un certain genre de personne venaient s'y retrouver. Qui
+          étaient-ils ?
+        </p>
+
+        <p>
+          <input id="code" class="code-input" />
+          <button
+            id="confirm"
+            class="code-confirm"
+            onclick="confirm(); return false;"
+          >
+            ESSAYER
+          </button>
+        </p>
+      </div>
+
+      <div id="next-step" class="hide">
+        <h2>Felicitations !</h2>
+        <p>
+          Vos capacités d'observations sont incroyables. Vous pouvez donc
+          continuer. Traversez le pont. Vous pouvez ensuite prendre tout droit.
+          Un peu plus haut, vous trouverez un géant, allongé de tout son long.
+          Le long de sa longue chair rouge, vous trouverez les instructions
+          suivantes.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

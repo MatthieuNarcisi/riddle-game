@@ -39,10 +39,6 @@ p {
   font-size: 40px;
 }
 
-#next-step {
-  display: none;
-}
-
 .reveal {
   display: block !important;
 }

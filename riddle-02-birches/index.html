@@ -18,7 +18,7 @@
         qui vous entoure. Voici donc l'énigme suivante.
       </p>
 
-      <div id="puzzle-form">
+      <div id="puzzle-form-01">
         <p>
           Je vis dans ces bois depuis des temps anciens. Les grands vénérables
           et géants qui peuplent la forêt sont ma maison. Qui suis-je ? Il y a
@@ -29,25 +29,45 @@
         </p>
 
         <p>
-          <input id="code" class="code-input" />
-          <button
-            id="confirm"
-            class="code-confirm"
-            onclick="confirm(); return false;"
-          >
+          <input id="code-01" class="code-input" />
+          <button class="code-confirm" onclick="confirm01(); return false;">
             ESSAYER
           </button>
         </p>
       </div>
 
-      <div id="next-step">
+      <div id="next-step-01" class="hide">
         <h2>Felicitations !</h2>
         <p>
-          Vous pouvez maintenant continuer votre aventure. Pour ceci, dirigez
-          vous vers l'outil indispensable de tout savant étudiant les flux
-          aériens de notre planète. Quand vous l'aurez en face de vous, vous
-          pourrez apercevoir de l'autre côté, trois grand vénérables blancs et
-          noirs gardant le chemin. Cherchez ce qu'ils ont à vous dire.
+          Vous devez maintenant suivre le chemin qui longe la droite des grands
+          vénérables où vous avez trouvé ce message. Continuez un long moment.
+          Vous verrez alors une ancienne branche semblant indiquer une
+          direction. Cherchez à savoir ce qu'il veut vous raconter.
+        </p>
+        <div id="puzzle-form-02">
+          <p>
+            Quand vous aurez trouvé ce que ce vieil ami a à vous raconter.
+            Inscrivez ici la direction qu'il vous a dit d'emprunter pour
+            découvrir la suite des instructions.
+          </p>
+
+          <p>
+            <input id="code-02" class="code-input" />
+            <button class="code-confirm" onclick="confirm02(); return false;">
+              ESSAYER
+            </button>
+          </p>
+        </div>
+      </div>
+
+      <div id="next-step-02" class="hide">
+        <h2>Felicitations !</h2>
+        <p>
+          Vous continuez à descendre. Mais arrêtez vous avant le miroir naturel.
+          Vous devrez partir en direction du monolithe. Juste avant d'y
+          parvenir, sachez vous reposer dans la demeure qui fut construite là.
+          Vous trouverez même ici la prochaine enigme. Cette dernière est cachée
+          où l'on range les clés en rentrant chez soi.
         </p>
       </div>
     </div>

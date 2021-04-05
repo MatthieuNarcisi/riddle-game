@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine"
+    />
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+  </head>
+
+  <body>
+    <div class="main-content">
+      <h1>Le géant</h1>
+      <p>
+        Vous voici quasiment arrivée au but. Ne sentez-vous pas déjà le parfum
+        de mes potions ? Le géant sur lequel vous êtes assise n'a pas fini de
+        rendre service à la forêt et nourrir les autres habitants.
+      </p>
+
+      <div id="puzzle-form">
+        <p>
+          C'est une enigme plus générale que je vous pose ici: je ne suis pas le
+          premier alchimiste, loin. de là. De tous temps, les hommes ont tenté
+          de changer le plomb en or et de créer des potions aux propriétés
+          formidables. Quel est le nom de l'alchimiste le plus connus ?
+        </p>
+
+        <p>
+          <input id="code" class="code-input" />
+          <button
+            id="confirm"
+            class="code-confirm"
+            onclick="confirm(); return false;"
+          >
+            ESSAYER
+          </button>
+        </p>
+      </div>
+
+      <div id="next-step" class="hide">
+        <h2>Felicitations !</h2>
+        <p>
+          Placez vous dos au géant tombé, et tachez de regarder devant vous,
+          vous verrez un monticul qui semble être un tas de terre de la distance
+          où vous êtes. Mais ne vous laissez pas duper car il en est tout autre.
+          Et c'est d'ailleurs de l'autre côté que se trouve l'ultime message.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
